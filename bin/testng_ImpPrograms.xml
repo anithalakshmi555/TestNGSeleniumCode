@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loans">
+  <test name="PersonalLoans">
+	 <classes>  
+      <class name="ImpPrograms.module1"/>  
+      <class name="ImpPrograms.module2"/>
+      <class name="ImpPrograms.module4"/>   
+     </classes>  
+  </test> <!-- Test -->
+  <test name="CarLoan">
+  	<classes>  
+    	  <class name="ImpPrograms.module3">  
+     		 <methods>
+     		 	<include name = "webLogincarloan"/>  
+     		 	<include name = "test*"/> 
+      			<exclude name = "mobileLogincarloan"/>  
+    		  </methods>
+    	  </class> 
+   </classes>  
+  </test>
+  
+</suite> <!-- Suite -->

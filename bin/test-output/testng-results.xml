@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="119662" started-at="2020-02-12T09:34:05Z" finished-at="2020-02-12T09:36:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="119662" started-at="2020-02-12T09:34:05Z" finished-at="2020-02-12T09:36:05Z">
+      <class name="com.techbeamers.testing.DynamicPrice1">
+        <test-method status="PASS" signature="startChrome()[pri:0, instance:com.techbeamers.testing.DynamicPrice1@12aba8be]" name="startChrome" is-config="true" duration-ms="12277" started-at="2020-02-12T09:34:06Z" finished-at="2020-02-12T09:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChrome -->
+        <test-method status="PASS" signature="MyFirstTestNGTestCase()[pri:0, instance:com.techbeamers.testing.DynamicPrice1@12aba8be]" name="MyFirstTestNGTestCase" duration-ms="106450" started-at="2020-02-12T09:34:18Z" finished-at="2020-02-12T09:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyFirstTestNGTestCase -->
+        <test-method status="PASS" signature="cleaupProc()[pri:0, instance:com.techbeamers.testing.DynamicPrice1@12aba8be]" name="cleaupProc" is-config="true" duration-ms="899" started-at="2020-02-12T09:36:04Z" finished-at="2020-02-12T09:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleaupProc -->
+      </class> <!-- com.techbeamers.testing.DynamicPrice1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

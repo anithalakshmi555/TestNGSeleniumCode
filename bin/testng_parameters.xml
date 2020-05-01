@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="test_suite">  
+<parameter name="a" value="5"/>  
+<parameter name="b" value="3"/>  
+<test name="parameters">  
+<classes>  
+<class name="parameters.sum"/>  
+<class name="parameters.subtraction"/>
+<class name="parameters.multiply"/>
+<class name="parameters.divide"/>
+</classes>  
+</test> <!-- Test -->  
+<test name="vegetable">
+	<parameter name="a1" value="Cauliflower"/>
+	<parameter name="b1" value="Ladiesfinger"/>
+	<classes>
+		<class name="parameters.vegetable"/>
+	</classes>
+</test>
+<test name="fruits">
+<parameter name="m" value="mango"/>
+<parameter name="n" value="orange"/>
+<classes>
+	<class name="parameters.fruits"/>
+</classes>
+</test>
+
+</suite> <!-- Suite -->  

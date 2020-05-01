@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="test_suite">  
+<test name="description">  
+<classes>  
+<class name="attribute.description"/>  
+<class name="attribute.priority_Fruits"/>
+<class name="attribute.Enabled"/>
+<class name="attribute.timeout"/>
+</classes>  
+</test> <!-- Test -->  
+		<test name="software company">
+				<groups>
+					<run>
+						<include name="software company"/>  
+					</run>
+				</groups>
+			<classes>  
+				<class name="attribute.groups_company"/>
+			</classes>  
+		</test>
+</suite> <!-- Suite -->  

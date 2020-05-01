@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="test_suite">  
+<groups>
+	<run>
+		<include name="SmokeTest"/>  
+	</run>
+</groups>			
+<test name="test">  
+<classes>  
+ 	<class name="Example_TestNG_exclude.exclude">    
+		<methods>  
+			<exclude name="Mobile.*"/>  
+		</methods>  
+	</class>  
+</classes>  
+</test> <!-- Test -->
+
+		<test name="Car Loan">  
+		<classes>  
+		<class name="Example_TestNG_exclude.Car_loan"/>  
+		</classes>  
+		</test> <!-- Test -->  
+	
+	<test name="Home Loan">  
+	<classes>  
+	<class name="Example_TestNG_exclude.home_loan"/>  
+	</classes>  
+	</test> <!-- Test -->  
+	
+	<test name="Personal Loan">  
+	<classes>  
+	<class name="Example_TestNG_exclude.personal_loan"/>  
+	</classes>  
+	</test> <!-- Test -->  
+	  
+	  
+	 <test name="include_exclude_groups">
+	 <groups>
+	 	<run>
+	 		<include name="Include Group"/>
+	 		<exclude name="Exclude Group"/>  
+	 	</run>
+	 </groups>
+	 <classes>  
+			<class name="Example_TestNG_exclude.include_exclude_groups"/>  
+		</classes>  
+	</test> <!-- Test -->  
+	  
+	  
+	<test name="Groups_in_groups">
+	 <groups>
+		 <define name="Group 1">
+	 		<include name="Smoke"/>
+	 		<include name="Regression"/>
+	 	</define>	
+	  	<run>
+	 		<include name="Group 1"/>
+	  	</run>
+	 </groups>
+	 <classes>  
+			<class name="Example_TestNG_exclude.Groups_in_groups"/>  
+		</classes>  
+	</test> <!-- Test -->  
+	  
+	  
+	  
+	  
+	</suite> <!-- Suite -->  

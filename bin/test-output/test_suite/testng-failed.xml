@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [test_suite]">
+  <parameter name="a" value="5"/>
+  <parameter name="b" value="3"/>
+  <test thread-count="5" name="Listeners(failed)">
+    <classes>
+      <class name="TestListener.SuccessFailure">
+        <methods>
+          <include name="fail"/>
+        </methods>
+      </class> <!-- TestListener.SuccessFailure -->
+    </classes>
+  </test> <!-- Listeners(failed) -->
+</suite> <!-- Failed suite [test_suite] -->
