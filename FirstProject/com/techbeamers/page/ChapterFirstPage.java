@@ -26,7 +26,9 @@ public class ChapterFirstPage {
 	// Method-1.
 	public ChapterFirstPage clickSecondAjaxButton() {
 		secondajax.click();
+		System.out.println("Addes this statement to check the github update");
 		return PageFactory.initElements(driver, ChapterFirstPage.class);
+		
 	}
 
 
